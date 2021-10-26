@@ -1,22 +1,14 @@
-(function ($) {
-    "use strict";
-    let skip = 12;
-    let take = 8;
-    let theacher_salary = $("salary").val();
-    $(document).on("click", "#loadmore", function () {
-        $.ajax({
-            url: '/Theacher/LoadMore?skip={}&take=8',
-            type: "Get",
-            success: function (res) { $(."theacher").append(res);
-        skip += take;
-        if (skip >= theacher_salary) {
-            $("#loadmore").remove();
-        }
-    }
-        
-        })
-    })
-/*------------------------------------
+var myEl = document.getElementById('button');
+
+myEl.addEventListener('click', function () {
+    alert('Succes');
+}, false);
+
+myEl.addEventListener('click', function () {
+    alert('Try Again');
+}, false);
+
+   ------------------------------------
 	Sticky Menu 
 --------------------------------------*/
  var windows = $(window);
