@@ -1,4 +1,4 @@
-﻿@model IEnumerable<_Views_Account_Register>
+﻿
 @{
     ViewData["Title"] = "Register";
 }
@@ -15,7 +15,7 @@
                 </div>
 
                 <form class="form-group login-form " action=" ">
-                    <div>  <input asp-for="Email" type="email" placeholder="Enter Email " name="email " class="input "></div> 
+                    <div>  <input asp-action="Email" type="email" placeholder="Enter Email " name="email " class="input "></div> 
                     <div>  <input asp-action="Password" type="password" placeholder="Enter Password " name="password " class="input ">  </div> 
                     <button class="login-submit ">Log in</button>
                 </form>
@@ -46,7 +46,7 @@
                         <span class="text-danger" asp-validation="CheckPA">   </span>
                     </div>
                    
-                    <button type="submit" id="button" class="register-submit">Register</button>
+                    <button type="submit" id="button" class="register-submit ">Register</button>
                 </form>
             </div>
         </div>
