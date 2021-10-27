@@ -8688,11 +8688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ideapad\\source\\repos\\Team Work\\Team Work\\Team Work.csproj",
+      "projectUniqueName": "C:\\Users\\Ideapad\\OneDrive\\Documents\\GitHub\\GroupWork\\Team Work\\Team Work.csproj",
       "projectName": "Team Work",
-      "projectPath": "C:\\Users\\Ideapad\\source\\repos\\Team Work\\Team Work\\Team Work.csproj",
+      "projectPath": "C:\\Users\\Ideapad\\OneDrive\\Documents\\GitHub\\GroupWork\\Team Work\\Team Work.csproj",
       "packagesPath": "C:\\Users\\Ideapad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ideapad\\source\\repos\\Team Work\\Team Work\\obj\\",
+      "outputPath": "C:\\Users\\Ideapad\\OneDrive\\Documents\\GitHub\\GroupWork\\Team Work\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ideapad\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -42,7 +42,7 @@ body {
 
 .stage {
     width: 310px;
-    height: 400px;
+    height: 500px;
     background-color: white;
     border-radius: 5px;
 }
@@ -67,7 +67,7 @@ body {
 .btn {
     position: relative;
     background: transparent;
-    padding: 10px 30px;
+    padding: 5px 30px;
     cursor: pointer;
     outline: none;
     border: none;
